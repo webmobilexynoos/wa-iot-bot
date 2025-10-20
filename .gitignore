@@ -1,0 +1,15 @@
+# Dependensi
+/node_modules
+
+# Hasil build TypeScript
+/dist
+
+# File lingkungan (berisi info sensitif)
+.env
+
+# File sesi Baileys (SANGAT PENTING!)
+# Nama folder ini sesuai dengan variabel 'authFolder' di index.ts
+/auth_info_baileys
+
+# Log PM2
+*.log

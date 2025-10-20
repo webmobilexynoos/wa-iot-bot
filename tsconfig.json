@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",         // Target JavaScript modern
+    "module": "commonjs",       // Sistem modul Node.js
+    "rootDir": "./src",         // Folder kode sumber TypeScript
+    "outDir": "./dist",         // Folder output JavaScript hasil compile
+    "esModuleInterop": true,    // Memudahkan import modul CommonJS
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,             // Aktifkan pengecekan tipe yang ketat
+    "skipLibCheck": true,       // Lewati pengecekan tipe library
+    "resolveJsonModule": true   // Izinkan import file .json
+  },
+  "include": ["src/**/*"]       // Hanya compile file di dalam folder src
+}
